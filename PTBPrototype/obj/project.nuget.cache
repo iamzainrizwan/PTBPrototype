@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "r6wcCo/U8Bcw/cxxxD9jBQbQDzpZph/eEb6YP7gr+ZbP0y0UT6sc+mwdBhh9oix91mhXlANfdRLKSmc0THYj3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zrizw\\RiderProjects\\PTBPrototype\\PTBPrototype\\PTBPrototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zrizw\\.nuget\\packages\\betterconsoles.colors\\1.1.1\\betterconsoles.colors.1.1.1.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\betterconsoles.core\\1.2.0\\betterconsoles.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\betterconsoletables\\2.0.5-rc1\\betterconsoletables.2.0.5-rc1.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\clawfoot.core\\0.6.0\\clawfoot.core.0.6.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\clawfoot.extensions\\0.6.0\\clawfoot.extensions.0.6.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\zrizw\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
