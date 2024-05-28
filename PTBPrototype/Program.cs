@@ -34,10 +34,10 @@ static void RunProgram() {
         if (time != 0) {overdueCount = UpdateQuests(ref quests, time, questCount);} //update quests
         DisplayMenu(time, overdueCount);
         //input handling
-        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.Green;
         int input = GetIntInput();
-        Console.WriteLine("\n");
         Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("\n");
         //switch case for menu options
         switch (input) {
             case 1:
@@ -123,13 +123,16 @@ static int GetIntInput() {
 //add quest to array using ref to modify the original array
 static void AddQuest(ref string[,] quests, ref int questCount){
     //input for quest details
-    
-    
     Console.WriteLine("Enter quest name:");
+    Console.ForegroundColor = ConsoleColor.Green;
     string questName = Console.ReadLine();
+    Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine("Enter quest subject:");
+    Console.ForegroundColor = ConsoleColor.Green;
     string questSubject = Console.ReadLine();
+    Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine("Enter quest due time:");
+    Console.ForegroundColor = ConsoleColor.Green;
     int questDueTime = GetIntInput();
     // add quest to 2D array
     quests[questCount, 0] = questName;
@@ -137,7 +140,9 @@ static void AddQuest(ref string[,] quests, ref int questCount){
     quests[questCount, 2] = questDueTime.ToString(); //convert int to string for array
     quests[questCount, 3] = "Incomplete"; //quest by default is incomplete
     questCount++; //modify quest count using ref to modify original 
+    Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine("Quest added successfully!");
+    Console.ReadKey();
     Console.WriteLine("\n");
 }   
 
@@ -183,6 +188,7 @@ static void MarkQuestComplete(ref string[,] quests, int questCount) {
     int questNum = GetIntInput();
     quests[questNum, 3] = "Complete";
     Console.WriteLine("Quest marked as complete!");
+    Console.ReadKey();
     Console.WriteLine("\n");
 }
     
