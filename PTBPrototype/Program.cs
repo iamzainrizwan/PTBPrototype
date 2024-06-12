@@ -2,7 +2,7 @@
 //Zain Rizwan
 //Most recent changes made 28/5/24
 
-//i honestly dont know why i need this many usings but im scared to break it so they stay
+//usings
 using System;
 using BetterConsoles.Tables;
 using System.Diagnostics;
